@@ -1,0 +1,15 @@
+{
+    "name": "Asker1", 
+    "database_params": {
+      "host": "192.168.2.16",
+      "port": 3306,
+      "database": "Database1",
+      "user": "localuser",
+      "password": "miptlocal"
+    }, 
+    "power_params": {
+      "power": 3.0, 
+      "price": 3.0
+    }
+  }
+  
