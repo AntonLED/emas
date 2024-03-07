@@ -1,0 +1,16 @@
+{
+    "name": "Bidder1",
+    "rorm": 0.3,
+    "price": 12.0,
+    "power": 12.0,
+    "debug": true,
+    "fix_power": 5.5,
+    "database_params": {
+      "host": "192.168.2.16",
+      "port": 3306,
+      "database": "Database1",
+      "user": "localuser",
+      "password": "miptlocal"
+    }
+  }
+  

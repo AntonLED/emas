@@ -1,0 +1,2 @@
+IDLE = False
+INGAME = True
