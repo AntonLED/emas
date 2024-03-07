@@ -66,12 +66,17 @@ class BidderAgent1(BaseBidder):
         return default_config
 
     def db_connect(self):
+        # params = {
+        #     "host": "192.168.50.104",
+        #     "port": 3306,
+        #     "database": "Database1",
+        #     "user": "localuser",
+        #     "password": "miptlocal",
+        # }
         params = {
-            "host": "192.168.50.104",
-            "port": 3306,
-            "database": "Database1",
-            "user": "localuser",
-            "password": "miptlocal",
+            "host": "localhost", 
+            "user": "root", 
+            "password": "test"
         }
         try:
             self.database = mysql.connector.connect(**params)

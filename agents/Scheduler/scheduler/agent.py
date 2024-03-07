@@ -64,12 +64,17 @@ class Scheduler(Agent):
         return (h % 24) * 100 + m
 
     def _update_ui(self, t1, t2):
+        # database = mysql.connector.connect(
+        #     host=Database_commands.database_params.host,
+        #     port=Database_commands.database_params.port,
+        #     database=Database_commands.database_params.database,
+        #     user=Database_commands.database_params.user,
+        #     password=Database_commands.database_params.password,
+        # )
         database = mysql.connector.connect(
-            host=Database_commands.database_params.host,
-            port=Database_commands.database_params.port,
-            database=Database_commands.database_params.database,
-            user=Database_commands.database_params.user,
-            password=Database_commands.database_params.password,
+            host="localhost", 
+            user="root", 
+            password="test"
         )
         if not database:
             return
